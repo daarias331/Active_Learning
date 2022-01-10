@@ -27,6 +27,6 @@ would expect the model to learn the most from their labelling.
 * Query by comittee: it is based on training an ensemble of several models and measuring the extent
 of disagreement within the ensemble as the selection heuristic. The idea is that instances that are predicted
 differently by each ensemble member are likely to be highly informative, once labelled. I implemented 3 methods:
-** vote entropy (or hard voting)
-** soft entropy (or soft voting)
-** KL (Kullback-Leibler) divergence
+  * Vote entropy (or hard voting)
+  * Soft entropy (or soft voting)
+  * KL (Kullback-Leibler) divergence
